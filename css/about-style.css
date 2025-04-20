@@ -1,0 +1,168 @@
+/* Variables CSS */
+:root{
+    --color-font: #EFFFFB;
+    --color-background: #272727;
+}
+
+/* Color de texto */
+.texto{
+    color: var(--color-font);
+}
+
+/*Fuentes*/
+@font-face {
+    font-family: 'Josefin Sanz';
+    src: url("../assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+@font-face{
+    font-family: "Raleway";
+    src: url("../assets/fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+
+main{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    /* background-color: red; */
+}
+
+main section{
+    width: 100%;
+    height: 100%;
+}
+
+.foto_perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#foto{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    height: 42vh;
+    width: 42vh;
+    background: url("../assets/images/profile/Perfil_about.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1vh solid var(--color-font);
+    border-radius: 3%;
+    rotate: 3deg;
+    box-shadow: inset 0 0 1vh 0.5vh var(--color-background);
+    /* background-color: blueviolet; */
+}
+
+@keyframes rotacion {
+    from{
+        rotate: 3deg;
+        transform: scale(1);
+    }to{
+        rotate: 0deg;
+        transform: scale(1.3);
+    }
+}
+
+
+#foto:hover{
+    rotate: 0deg;
+    animation: rotacion 0.7s cubic-bezier(0,1.7,.57,.86) forwards;
+    .clavo{
+        background-color: transparent;
+        background-image: url("../assets/images/icons/Agujero.png");
+        border: none;
+        box-shadow: none;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        scale: 1.4;
+    }
+}
+
+.clavo{
+    margin-top: 7%;
+    border-radius: 100%;
+    height: 3vh;
+    width: 3vh;
+    box-shadow: inset 0vh 0vh 1.2vh 0.4vh rgb(47, 47, 47),
+        0vh 0vh 1vh 0.2vh rgb(12, 12, 12);
+    background-color: rgb(130, 130, 130);
+    border: 0.2vh solid rgba(42, 42, 42, 0.918);
+}
+
+#info_perfil{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Josefin Sanz";
+    user-select: none;
+    /* background-color: blue; */
+}
+
+.texto_perfil{
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#contenedor_texto{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    user-select: none;
+}
+
+#contenedor_texto article{
+    width: 100%;
+}
+
+.titulos{
+    width: 100%;
+    border: 0.2vh solid black;
+    padding: 1vh;
+    margin: 2vh 0;
+    color: var(--color-font);
+    font-size: 4vh;
+    font-family: "Josefin Sanz";
+    text-align: center;
+}
+
+.titulos:hover{
+    color: #50D890 !important;
+    background-color: #1b1b1ba7 !important;
+    cursor: pointer;
+}
+
+.informacion{
+    display: none;
+    opacity: 0;
+}
+
+@keyframes visibilidad {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.texto_perfil div p{
+    color: var(--color-font);
+    font-family: "Raleway";
+    font-size: 2.5vh;
+    text-align: justify;
+    letter-spacing: 0.2vh;
+}
+
