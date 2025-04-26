@@ -1,0 +1,72 @@
+/* Tamaño medio */
+@media (max-width: 1000px){
+    /* general */
+    body {
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    /* nav */
+    header{
+        display: flex;
+        height: 15vh;
+        flex-direction: column;
+    }
+    header div{
+        display: flex;
+        height: 7.5vh;
+    }
+
+    header nav{
+        height: 7.5vh;
+    }
+    /* main */
+    main{
+        display: flex;
+        height: 300vh;
+        flex-direction: column;
+    }
+    main .perfil{
+        height: 80vh;
+    }
+    main .tecnologias{
+        height: 50vh;
+        width: 80vw;
+    }
+}
+/* Tamaño pequeño */
+@media (max-width: 500px){
+    /* header */
+    header nav{
+        display: none;
+    }
+
+    header div{
+        justify-content: space-evenly;
+    }
+
+    header div .menu{
+        display: flex;
+        height: 100%;
+        font-size: 5vh;
+    }
+
+    /* footer */
+    footer{
+        width: 100vw;
+        height: auto;
+    }
+    footer ul{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer ul li{
+        justify-content: center;
+        text-align: center;
+        padding: 1%;
+    }
+    footer ul div{
+        justify-content: center;
+    }
+}

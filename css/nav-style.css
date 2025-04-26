@@ -53,6 +53,10 @@ header div span:hover{
     cursor: pointer !important;
 }
 
+header div .menu{
+    display: none;
+}
+
 header nav{
     /* background-color: red; */
     height: 100%;
