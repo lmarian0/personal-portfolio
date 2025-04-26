@@ -42,7 +42,7 @@ function cambioDeTema(){
 
 //Funcion para tomar preferencias de usuario preestablecidas
 
-function iniciodetema(){
+function inicioDeTema(){
     if(light){
         try{
             document.querySelectorAll(".texto").forEach(elemento => {
@@ -73,4 +73,17 @@ function iniciodetema(){
     }
 }
 
-iniciodetema();
+// Funcion para diseño responsive, abrir menu de opciones
+let menu = false
+
+function menuOpciones(){
+    let nav = document.getElementsByTagName("nav")[0];
+    if(!menu){
+        nav.style.display="grid";
+    }else{
+        nav.style.display="none";
+    }
+    menu = !menu;
+}
+
+inicioDeTema();

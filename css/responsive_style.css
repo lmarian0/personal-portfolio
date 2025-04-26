@@ -9,7 +9,7 @@
     /* nav */
     header{
         display: flex;
-        height: 15vh;
+        height: auto;
         flex-direction: column;
     }
     header div{
@@ -18,6 +18,7 @@
     }
 
     header nav{
+        padding: 2%;
         height: 7.5vh;
     }
     /* main */
@@ -37,6 +38,10 @@
 /* Tamaño pequeño */
 @media (max-width: 500px){
     /* header */
+    header{
+        height: auto;
+    }
+
     header nav{
         display: none;
     }
@@ -48,7 +53,6 @@
     header div .menu{
         display: flex;
         height: 100%;
-        font-size: 5vh;
     }
 
     /* footer */

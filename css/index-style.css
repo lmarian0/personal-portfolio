@@ -137,5 +137,5 @@ main {
 .elementos:hover{
     width: 100%;
     height: 100%;
-    animation: animacion 1.2s ease-in-out infinite alternate;
+    animation: animacion 0.9s ease-in-out infinite alternate;
 }

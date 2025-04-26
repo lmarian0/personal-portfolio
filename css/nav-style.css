@@ -43,15 +43,19 @@ header div{
 
 header div span{
     /* background-color: chocolate; */
-    height: 60%;
-    width: 60%;
-    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 4vh;
 }
 
-header div span:hover{
+header .botones_nav div span i:hover{
     color: #50D890 !important;
     cursor: pointer !important;
 }
+
+
 
 header div .menu{
     display: none;
