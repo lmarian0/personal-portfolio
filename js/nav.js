@@ -80,8 +80,18 @@ function menuOpciones(){
     let nav = document.getElementsByTagName("nav")[0];
     if(!menu){
         nav.style.display="grid";
+        try {
+            Array.from(document.getElementsByClassName("fotos")).forEach(foto => {
+                foto.classList.add("animacion_encimar");
+            });
+        } catch (e) {}
     }else{
         nav.style.display="none";
+        try {
+            Array.from(document.getElementsByClassName("fotos")).forEach(foto => {
+                foto.classList.remove("animacion_encimar");
+            });
+        } catch (e) {}
     }
     menu = !menu;
 }

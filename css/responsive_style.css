@@ -25,6 +25,7 @@
     main{
         display: flex;
         height: 300vh;
+        width: 100vw;
         flex-direction: column;
     }
     main .perfil{
@@ -34,11 +35,21 @@
         height: 50vh;
         width: 80vw;
     }
+
+    main .fotos{
+        height: 40vh;
+        width: 50vw;
+    }
+    /* espacio al final para botones de android */
+    .espaciador{
+        flex-shrink: 0;
+        height: 10vh;
+    }
 }
 /* Tamaño pequeño */
 @media (max-width: 500px){
     /* header */
-    header{
+    header {
         height: auto;
     }
 
@@ -53,6 +64,10 @@
     header div .menu{
         display: flex;
         height: 100%;
+    }
+
+    #links ul li a{
+        font-size: 3vw;
     }
 
     /* footer */
