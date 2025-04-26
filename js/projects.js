@@ -4,7 +4,7 @@ let foto3 = document.getElementById("foto3");
 
 let fotos = ["assets/images/projects/1_Snake.png", "assets/images/projects/2_Nave.png", "assets/images/projects/3_Sapito.png", "assets/images/projects/4_Gauss.png", "assets/images/projects/5_Portfolio.png"];
 
-let gitUrl = ["https://github.com/lmarian0/snake-python.git", "https://github.com/lmarian0/Navecita.git", "https://github.com/lmarian0/Sapo-saltando-css.git", "https://github.com/lmarian0/Gauss-raices-calculadora.git", "https://github.com/lmarian0/Presentaci-n-Portfolio.git"];
+let gitUrl = ["https://github.com/lmarian0/snake-python.git", "https://github.com/lmarian0/ArcadeNave", "https://github.com/lmarian0/Sapo-saltando-css.git", "https://github.com/lmarian0/Gauss-raices-calculadora.git", "https://github.com/lmarian0/Presentaci-n-Portfolio.git"];
 
 //Seteo de variables inicializacion
 let count = 0;
