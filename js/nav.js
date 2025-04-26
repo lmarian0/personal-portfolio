@@ -86,4 +86,20 @@ function menuOpciones(){
     menu = !menu;
 }
 
+// Función para corregir cuando se cambia el tamaño de la pantalla
+function verificarTamañoPantalla() {
+    let nav = document.getElementsByTagName("nav")[0];
+    if (window.innerWidth > 500) {
+        nav.style.display = "grid";
+        menu = false; // Resetea el estado
+    } else {
+        if(!menu) {
+            nav.style.display = "none";
+        }
+    }
+}
+
+// Escucha cambios de tamaño de ventana
+window.addEventListener("resize", verificarTamañoPantalla);
+
 inicioDeTema();
