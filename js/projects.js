@@ -2,9 +2,9 @@ let foto1 = document.getElementById("foto1");
 let foto2 = document.getElementById("foto2");
 let foto3 = document.getElementById("foto3");
 
-let fotos = ["assets/images/projects/1_Snake.png", "assets/images/projects/2_Nave.png", "assets/images/projects/3_Sapito.png", "assets/images/projects/4_Gauss.png", "assets/images/projects/5_Portfolio.png"];
+let fotos = ["assets/images/projects/1_Juego_Enzito.png", "assets/images/projects/2_Snake.png", "assets/images/projects/3_Nave.png", "assets/images/projects/4_Gauss.png", "assets/images/projects/5_Sapito.png", "assets/images/projects/6_Portfolio.png"];
 
-let gitUrl = ["https://github.com/lmarian0/snake-python.git", "https://github.com/lmarian0/ArcadeNave", "https://github.com/lmarian0/Sapo-saltando-css.git", "https://github.com/lmarian0/Gauss-raices-calculadora.git", "https://github.com/lmarian0/personal-portfolio.git"];
+let gitUrl = ["https://github.com/lmarian0/JavaElMate.git", "https://github.com/lmarian0/snake-python.git", "https://github.com/lmarian0/ArcadeNave", "https://github.com/lmarian0/Gauss-raices-calculadora.git", "https://github.com/lmarian0/Sapo-saltando-css.git", "https://github.com/lmarian0/personal-portfolio.git"];
 
 //Seteo de variables inicializacion
 let count = 0;

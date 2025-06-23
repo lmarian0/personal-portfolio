@@ -80,7 +80,7 @@ main{
     z-index: 100;
     /* background-color: red; */
     transform: translateX(2.5vw) rotate(7deg);
-    background: url("../assets/images/projects/1_Snake.png");
+    background: url("../assets/images/projects/1_Juego_Enzito.png");
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -90,7 +90,7 @@ main{
     z-index: 50;
     /* background-color: blue; */
     transform: translateX(-2.5vw) rotate(-7deg);
-    background: url("../assets/images/projects/2_Nave.png");
+    background: url("../assets/images/projects/2_Snake.png");
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -99,7 +99,7 @@ main{
 #foto3{
     z-index: 10;
     /* background-color: aqua; */
-    background: url("../assets/images/projects/5_Portfolio.png");
+    background: url("../assets/images/projects/6_Portfolio.png");
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
