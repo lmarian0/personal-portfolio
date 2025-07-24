@@ -99,7 +99,7 @@ main{
 #foto3{
     z-index: 10;
     /* background-color: aqua; */
-    background: url("..assets/images/projects/6_Hilando.png");
+    background: url("../assets/images/projects/6_Hilando.png");
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
